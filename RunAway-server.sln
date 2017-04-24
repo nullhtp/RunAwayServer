@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RunAway-server", "src\RunAway-server\RunAway-server.xproj", "{C6BCBECA-0FBF-428C-ACDC-96CD2D271E54}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Core\Core.xproj", "{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{C6BCBECA-0FBF-428C-ACDC-96CD2D271E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6BCBECA-0FBF-428C-ACDC-96CD2D271E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6BCBECA-0FBF-428C-ACDC-96CD2D271E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C6BCBECA-0FBF-428C-ACDC-96CD2D271E54} = {915C65D5-2815-4524-B074-8157A2903004}
+		{BBFBE14D-22AB-4F6D-BF05-07D8ABE70D68} = {915C65D5-2815-4524-B074-8157A2903004}
 	EndGlobalSection
 EndGlobal
