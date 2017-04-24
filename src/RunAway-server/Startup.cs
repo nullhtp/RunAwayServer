@@ -36,7 +36,7 @@ namespace RunAway_server
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
+            services.AddCors();
             services.AddMvc();
         }
 
@@ -45,7 +45,11 @@ namespace RunAway_server
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
+            app.UseCors(builder => builder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+//            .WithOrigins("http://localhost:4200")
+            .AllowAnyHeader());
             app.UseApplicationInsightsRequestTelemetry();
 
             app.UseApplicationInsightsExceptionTelemetry();
